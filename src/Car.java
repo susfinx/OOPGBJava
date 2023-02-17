@@ -2,21 +2,21 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Car {
-    String model;
-    int year;
-    double price;
-    String color;
-    int power;
-    boolean status;
-    int maxmest;
-    int mesta;
-    int TO;
-    String razmer;
-    boolean gruz;
-    Double kmh;
+    private String model;
+    private int year;
+    private double price;
+    private String color;
+    private int power;
+    private boolean status;
+    private int maxmest;
+    private int mesta;
+    private int TO;
+    private String razmer;
+    private boolean gruz;
+    private Double kmh;
 
 
-    Car (String model, int year,double price, String color,int power, int TO, String razmer,int maxmest){
+    public Car (String model, int year,double price, String color,int power, int TO, String razmer,int maxmest){
         this.model=model;
         this.year=year;
         this.price=price;
