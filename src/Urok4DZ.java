@@ -23,3 +23,4 @@ public class Urok4DZ {
         System.out.println(newtask.getList());
     }
 }
+// Realizovan Class Kalendar, abstraktnyi klass Zadachi i podclass Zadachirab. Dobavlenie Zadachi i vkluchenie i zapis napominaniya.
