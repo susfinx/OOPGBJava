@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Shkaf {
-    private int count;
+    private static int count;
     private List<Kniga> list = new ArrayList<>();
 
     public Shkaf(int count) {
