@@ -106,7 +106,7 @@ public class AccuweatherModel implements WeatherModel {
         Response response = okHttpClient.newCall(request).execute();
         String responseString = response.body().string();
 
-        String cityKey = objectMapper.readTree(responseString).get(0).at("/Key").asText();
-        return cityKey;
+//        String cityKey = objectMapper.readTree(responseString).get(0).at("/Key").asText();
+        return responseString;
     }
 }
